@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+* {
+  color: #424242;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button:not(.icon) {
+  font-size: medium;
+  padding: .5em 1em;
+  background-color: #ADD7E6;
+  border: solid 1px #6AD1CA;
+  border-radius: .5em;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background-color: #6AD1CA;
+  cursor: pointer;
+  transition: 1s;
+}
+
+@media screen and (max-width: 800px) {
+  button:not(.icon) {
+    font-size: initial;
+    padding: .5em;
+    background-color: lightblue;
+    border-radius: .5em;
+  }
+}

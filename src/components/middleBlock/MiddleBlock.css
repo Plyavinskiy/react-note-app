@@ -1,0 +1,30 @@
+.middle-block {
+  display: flex;
+  justify-content: end;
+}
+
+.middle-block > * {
+  margin-left: 1em;
+}
+
+.middle-block div {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background-color: #d5d7b6;
+  border-radius: .5em;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .middle-block div {
+    padding: .5em;
+  }
+}
