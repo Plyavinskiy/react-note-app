@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.name,
+.dateOfCreation,
+.datesFromText {
+  width: 10em;
+  min-width: 10em;
+}
+
+.category {
+  width: 5em;
+  min-width: 5em;
+}
+
+.number {
+  width: 6em;
+  min-width: 6em;
+}
+
+.text {
+  flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .primary {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .secondary {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .tertiary {
+    display: none;
+  }
+}

@@ -1,1 +1,1 @@
-# react-note-app
+# Hometask #2 | React, Redux from RADENCY
